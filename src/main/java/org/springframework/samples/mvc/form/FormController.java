@@ -46,7 +46,7 @@ public class FormController {
 		}
 		// Typically you would save to a db and clear the "form" attribute from the session 
 		// via SessionStatus.setCompleted(). For the demo we leave it in the session.
-		String message = "Form submitted with success.  Bound " + formBean;
+		String message = "Form submitted successfully.  Bound " + formBean;
 		// Success response handling
 		if (ajaxRequest) {
 			// prepare model for rendering success message in this request
