@@ -31,7 +31,7 @@
 }
 
 .cleanform fieldset input {
-	width:70%;
+	width:60%;
 	line-height:1.5em;
 	padding:0.15em
 }
@@ -64,7 +64,7 @@
 
 .cleanform .multiple label{
 	float:left;
-	width:29%;
+	width:31%;
 	overflow:hidden;
 	padding-left:1px
 }
