@@ -55,7 +55,7 @@ public class FormControllerTests {
 				.andExpect(status().isMovedTemporarily())
 				.andExpect(redirectedUrl("/form"))
 				.andExpect(flash().attribute("message",
-						"Form submitted successfully.  Bound properties name='Joe', age=56, " +
+						"Form submitted successfully.  Bound properties name='Joes', age=56, " +
 						"birthDate=Tue Dec 16 00:00:00 " + timezone + " 1941, phone='(347) 888-1234', " +
 						"currency=123.33, percent=0.89, inquiry=comment, inquiryDetails='what is?'," +
 						" subscribeNewsletter=false, additionalInfo={java=true, mvc=true}"));
