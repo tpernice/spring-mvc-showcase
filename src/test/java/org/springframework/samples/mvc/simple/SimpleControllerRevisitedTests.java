@@ -16,7 +16,7 @@ public class SimpleControllerRevisitedTests {
 			.perform(get("/simple/revisited").accept(MediaType.TEXT_PLAIN))
 			.andExpect(status().isOk())
 			.andExpect(content().contentType("text/plain"))
-			.andExpect(content().string("Hello world revisited WRONG!"));
+			.andExpect(content().string("Hello world revisited!"));
 	}
 
 }
